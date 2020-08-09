@@ -1,0 +1,16 @@
+{
+  "name": "barovies",
+  "title": "Barovies",
+  "description": "Convert EP into Barovies for Tidy5eSheet",
+  "author": "Sparkasaurusmex",
+  "email": "sparkasaurusmex@gmail.com",
+  "systems": ["dnd5e"],
+  "scripts": [
+	"script/currency.js"
+  ],
+  "url": "https://github.com/Sparkasaurusmex/Barovies/",
+  "manifest": "https://raw.githubusercontent.com/Sparkasaurusmex/Barovies/master/module.json",
+  "download": "https://github.com/Sparkasaurusmex/Barovies/releases/download/1.0/Barovies.zip",
+
+  "minimumCoreVersion": "0.4.4"
+}
