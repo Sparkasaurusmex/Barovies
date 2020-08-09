@@ -1,4 +1,4 @@
-Hooks.on('renderTidy5eSheet', (sheet, html) => {
+Hooks.on('renderTidy5e', (sheet, html) => {
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp"]').remove();
   html.find('.denomination.ep').text('Barovies');
@@ -6,7 +6,7 @@ Hooks.on('renderTidy5eSheet', (sheet, html) => {
 });
 
 Hooks.once('ready', () => {
-  CONFIG.Actor.sheetClasses.character['dnd5e.Tidy5eSheet'].cls.prototype._onConvertCurrency = _onMyConvertCurrency;
+  CONFIG.Actor.sheetClasses.character['dnd5e.Tidy5e'].cls.prototype._onConvertCurrency = _onMyConvertCurrency;
 });
 
   function _onMyConvertCurrency(event) {
