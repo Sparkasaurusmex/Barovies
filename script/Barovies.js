@@ -1,3 +1,10 @@
+Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
+  html.find('.denomination.pp').remove();
+  html.find('[name="data.currency.pp"]').remove();
+  html.find('.denomination.ep').text('Barovies');
+  // etc.
+});
+
 Hooks.on('renderTidy5eSheet', (sheet, html) => {
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp"]').remove();
