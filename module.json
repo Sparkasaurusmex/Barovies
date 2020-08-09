@@ -6,7 +6,7 @@
   "email": "sparkasaurusmex@gmail.com",
   "systems": ["dnd5e"],
   "scripts": [
-	"script/currency.js"
+	"scripts/Barovies.js"
   ],
   "url": "https://github.com/Sparkasaurusmex/Barovies/",
   "manifest": "https://raw.githubusercontent.com/Sparkasaurusmex/Barovies/master/module.json",
